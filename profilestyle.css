@@ -883,11 +883,11 @@ OUR contract SECTION start
 	
 	}
 	.bio-image img {
-		width: 27.5rem;
+		width: 27rem;
 		
 	}
 	.main-image {
-		max-width: 27.5rem;
+		max-width: 27rem;
 	}
 
 }
