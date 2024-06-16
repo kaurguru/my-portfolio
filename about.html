@@ -18,21 +18,51 @@ OUR header SECTION start
    -->
 
 <a name="top">
-  <header class="header">
-	<img src="logo.png" alt="main logo" class="logo">
+	<header class="header">
+		<img src="logo.png" alt="main logo" class="logo">
+		<nav class="navbar">
+			<ul class="navbar-list">
+				<li>
+					<a href="index.html" class="home">Home</a>
+				</li>
+				<li>
+					<a href="about.html" class="about">About</a>
+				</li>
+				<li>
+					<a href="services.html" class="services">Services</a>
+				</li>
+				<li>
+					<a href="portfolio.html" class="portfolio">Portfolio</a>
+				</li>
+				<li>
+					<a href="contact.html" class="contact">Contact</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="menu"> <ion-icon name="menu" class="menu-icon open"></ion-icon>
+			<ion-icon name="close" class="menu-icon close"></ion-icon>
+			<ul class="navbar-menu">
+				<li>
+					<a href="index.html" class="home">Home</a>
+				</li>
+				<li>
+					<a href="about.html" class="about">About</a>
+				</li>
+				<li>
+					<a href="services.html" class="services">Services</a>
+				</li>
+				<li>
+					<a href="portfolio.html" class="portfolio">Portfolio</a>
+				</li>
+				<li>
+					<a href="contact.html" class="contact">Contact</a>
+				</li>
+			</ul>
+		
+		
+		</div>
 
-	<nav class="navbar"> 
-      <ul class="navbar-list">
-<li><a href="index.html" class="home">Home</a></li>
-<li><a href="about.html" class="about">About</a></li>
-<li><a href="services.html" class="services">Services</a></li>
-<li><a href="#portfolio" class="portfolio">Portfolio</a></li>
-<li><a href="contact.html" class="contact">Contact</a></li>
-      </ul>		 
-
-
-	</nav>
-</header>	 
+	</header> 
 </a>
 
 
@@ -178,7 +208,25 @@ OUR footer SECTION start
    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
-
+<script>
+	     document.addEventListener('DOMContentLoaded', function() {
+        const menuIcon = document.querySelector('.open');
+        const closeIcon = document.querySelector('.menu-icon.close');
+        const navbarMenu = document.querySelector('.navbar-menu');
+    
+        menuIcon.addEventListener('click', function() {
+            navbarMenu.classList.add('show');
+            menuIcon.style.display = 'none';
+            closeIcon.style.display = 'block';
+        });
+    
+        closeIcon.addEventListener('click', function() {
+            navbarMenu.classList.remove('show');
+            closeIcon.style.display = 'none';
+            menuIcon.style.display = 'block';
+        });
+    });
+</script>
 
 
 </body>
