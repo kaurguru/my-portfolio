@@ -825,7 +825,7 @@ OUR contract SECTION start
     justify-content: center;
     align-items: center;
 }
-.footer .grid-four{
+.grid-four{
 	grid-template-columns: 1fr;
 }
 .navbar-list {
@@ -876,5 +876,18 @@ OUR contract SECTION start
     .navbar-menu.show + .menu-icon.close {
         display: block;
     }
+	.p-btns {
+	flex-direction: column;
+		align-items: center;
+		gap: 2rem;
+	
+	}
+	.bio-image img {
+		width: 27.5rem;
+		
+	}
+	.main-image {
+		max-width: 27.5rem;
+	}
 
 }
