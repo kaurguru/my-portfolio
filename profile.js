@@ -26,7 +26,7 @@ img_active.forEach((curElem ) => curElem.classList.remove(`p-img-not-active`));
 //----------------------------------------------
    -->
 var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 2,
+      slidesPerView: 1,
       spaceBetween: 20,
       autoplay:{
         delay:2500,
