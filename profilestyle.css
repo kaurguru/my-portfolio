@@ -891,5 +891,8 @@ OUR contract SECTION start
 	.main-image {
 		max-width: 27.5rem;
 	}
+	.common-heading { 
+		font-size: 4rem;
+	}
 
 }
