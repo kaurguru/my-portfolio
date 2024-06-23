@@ -693,6 +693,7 @@ OUR contract SECTION start
 .section-contact-main input[type="submit"] {
 	max-width: 30%;
 	border: none;
+	border-radius: 0;
 }
 
 /*----------------------------------------------
@@ -764,6 +765,7 @@ OUR contract SECTION start
 	justify-content: center;
 	align-items: center;
 	gap: 1.5rem;
+	margin-top: 3rem;
 }
 
 .f-credits p {
@@ -814,10 +816,10 @@ OUR contract SECTION start
 		grid-template-columns: 1fr;
 	}
 .service-box{
-	margin: 2rem 4rem;
+	margin: 2rem 0rem;
 }
 .section {
-    padding: 9rem 4rem;
+    padding: 9rem 3rem;
 }
 .section-data {
     display: flex;
@@ -883,11 +885,11 @@ OUR contract SECTION start
 	
 	}
 	.bio-image img {
-		width: 27rem;
+		width: 27.5rem;
 		
 	}
 	.main-image {
-		max-width: 27rem;
+		max-width: 27.5rem;
 	}
 
 }
