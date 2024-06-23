@@ -231,7 +231,7 @@ BIO-DATA SECTION start
 
 	content: "";
 	position: absolute;
-	top: 118%;
+		top: 121%;
 	left: 1.4rem;
 	min-width: 20rem;
 	height: 0.3rem;
@@ -686,7 +686,7 @@ OUR contract SECTION start
 	border: 0.1rem solid var(--para);
 	border-radius: 5px;
 	font-size: 1.6rem;
-	font-family: "work sans";
+	
 	width: 100%;
 }
 
